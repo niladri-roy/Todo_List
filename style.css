@@ -1,0 +1,21 @@
+/* "*" represents universal selection of all elements in the webpage*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-image{
+    /*Absolute position will allow you to put a div bottom of every element*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 350px;
+}
+
+.background-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
